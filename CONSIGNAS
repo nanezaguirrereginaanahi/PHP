@@ -1,0 +1,27 @@
+Calcular el IMC con los datos que ingresara el usuario
+peso/(altura elevado al cuadrado)
+
+
+devolver
+altura
+peso 
+imc
+
+
+
+ $tiempo = $_POST['tiempo'];
+    $porcen = $_POST['porcen'];
+    $capital = $_POST['capital'];
+    $n = 1; //periodos por año, lo dejo a uno pues no se especifica nada más en el ejercicio
+    //Ejercicio
+function interest($capital,$tiempo,$porcen,$n=1){
+    $acumulado=0;
+    if ($tiempo > 1){
+            $acumulado=interest($capital,$tiempo-1,$porcen,$n);
+            }
+    $acumulado1 = $capital;
+    $acumulado = $acumulado1* pow(1 + $porcen/(100 * $n),$n);
+    return $acumulado;
+    }
+echo "el interés acumulado es : ". interest($capital,$tiempo,$porcen,$n);
+?>
