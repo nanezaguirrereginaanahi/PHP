@@ -24,4 +24,17 @@ function interest($capital,$tiempo,$porcen,$n=1){
     return $acumulado;
     }
 echo "el interés acumulado es : ". interest($capital,$tiempo,$porcen,$n);
-?>
+?> 
+
+
+
+una funcion es un bloque de codigo que realiza alguna operacion independentemente del programa
+
+una funcion tiene tres omponentes importantes 
+los parametros o argumentos que recibe la información de entrada.
+el codigo de la función, que son las operaciones que realiza la misma
+el resultado o valor de retorno que es valor final que entrega la funcion.
+
+tenemos 2 clases de funciones 
+las que crea el usuario.
+las propias del lenguaje
