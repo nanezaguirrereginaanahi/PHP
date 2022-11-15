@@ -13,10 +13,10 @@ class vehiculo{// cuando el comando class creo una clase
         echo "el vehiculo ".$this ->circula();}
 
      public function añadir_persona($peso_pasajero){
-         echo "vehiculo en total pesa".$this->peso + peso_pasajero;}
+         echo "vehiculo en total pesa".$this->peso + $peso_pasajero;}
 
 
-     class cuatro_ruedas extends vehiculo{
+     class $cuatro_ruedas extends vehiculo{
       private $numero_puertas; 
 
       public function repintar($color){
@@ -30,7 +30,7 @@ class vehiculo{// cuando el comando class creo una clase
 
       }
       class camion extends cuatro_ruedas{
-         private $longitud
+         private $longitud; 
       }
    }
 

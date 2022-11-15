@@ -8,5 +8,4 @@ echo "Sesion iniciada".":<br/>";
 
 echo "Usuario: ".$_SESSION["usuario"]." Estado".$_SESSION["estado"];//muestro el usuario y estado
 
-
 ?>
